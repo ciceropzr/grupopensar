@@ -1,5 +1,3 @@
-img { width: 50% }
-
 body{
 	margin: 0;
 	padding: 0;
@@ -7,15 +5,12 @@ body{
 	color:  #95989a;
 	font-style: normal;
 	text-align: left;
-	letter-spacing: 0em;
-	
+	letter-spacing: 0em;	
 }
 
 header {
 	width: 100%;
 	height: 100%;
-	background: url(Assets/_GP_marcaCOR.jpg);
-	background-size: cover 100% 100%;
 }
 
 nav {
@@ -28,17 +23,17 @@ nav {
 	width: 100%;
 }
 
-a {
+nav a {
 	text-decoration: none;
 }
 
-ul { 
+nav ul { 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-li {
+nav li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -52,81 +47,170 @@ li {
 	margin: 20px;
 }
 
-h2 { font-size: 1.61em; 
+h2 { 
+	font-size: 1.61em; 
+	margin: 0;
 }
 
-h3 { font-size: 1.30em;
+h3 { 
+	font-size: 1.30em;
+	margin: 0;
 }
 
-p { font-size: 0.9em;
+p { 
+	font-size: 0.9em;
+	margin: 0;
 }
+
 
 .home {
 	display: flex;
 	justify-content: center;
-	align-content: center;
-	padding-top: 10%;
-	height: 100%;
-	width: 100%;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.home-imagem-logo {
+	width: 60%;
 }
 
 .home-descricao {
-	width: 30%;
-	height: 40%
-}
-
-.sessão {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	width: 100%;
-	flex-direction: row;
+	width: 20%;
+	height: 40%;
+	font-size: 0.94em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	letter-spacing: 0em;
 }
 
 .sobre {
 	display: flex;
 	justify-content: flex-end;
+	align-content: flex-end;
+	align-items: center;
+	background: url("Assets/Público_Sarau do Alemao_Foto Marcus Menezes.jpg");
+	background-size: cover;
 	width: 100%;
-	height: 100%;
-	background: url(Assets/cortada1.jpg);
-	background-repeat: no-repeat;
+	height: 120vh;
 }
-.sobre-descricao {
+
+.sobre-descricao { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     border-radius: 25px;
     border: 1px solid #00416d;
     background-color: #fff;
-    width: 30%;
+    width: 40%;
+    height: 70%;
     padding: 1%;
 	color: #95989a;
 }
 
 .ações {
-	display: flex;	
-	align-content: center;
-	justify-content: center;
+	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
 	margin-top: 2.5%;
-	align-items: left;
 }
 
-.ações-descrição-sarau-texto {
-	width: 50%;
+.ações h2 {
+	align-self: flex-start;
+	}
+
+.conteinerações1 {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+}
+
+.blocoações1 {
+	align-self: flex-start;
+	width: 30%;
+	height: 60%;
+	padding: 1%;
+	margin-right: 5%;
 }
 
 video {
-	width: 50%
+	width: 50%;
+	height: ;
 }
 
-.ações-pensarcine-favela {
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-around;
+.conteinerações2 {
+	display: flex;
+	padding: 4%;
+	justify-content: center;
+	align-content: center;
 }
 
-.ações-descrições {
+.blocoações2 {
+	width: 35%;
+	height: 40%;
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.imagem3 {
+	width: 100%;
+}
+
+.blocoações3 {
+	width: 35%;
+	height: 60%;
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.imagem4 {
+	width: 100%;
+}
+
+.contato {
+	display: flex;
+	justify-content: flex-end;
 	align-items: flex-end;
-	width: 30%
+	position: relative;
+	background: url("Assets/Carol Dall Farra03_Sarau do Alemao_ Foto Isabela Reis.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 120vh;
 }
 
+.bloco-contato {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 1px solid #00416d;
+    background-color: #fff;
+    text-decoration: none;
+    width: 30%;
+    height: 30%;
+    padding: 1%;
+    font-size: 0.8em;
+}
+
+.bloco-contato p {
+	line-height: 1.07em;
+}
+
+.contato-resdesocial-doações {
+		
+}
+
+.icone-rede-social {
+	width: 50px
+}
+
+.contato-doações-lista {
+	display: flex;
+	flex-wrap: wrap;
+}
