@@ -72,6 +72,7 @@ p {
 
 .home-imagem-logo {
 	width: 60%;
+	margin-left: 5%
 }
 
 .home-descricao {
@@ -105,9 +106,15 @@ p {
     background-color: #fff;
     width: 40%;
     height: 70%;
-    padding: 1%;
+    padding: 1.25em;
 	color: #95989a;
 	margin: 5%
+}
+
+@media (max-width: 720px){
+	.sobre-descricao {
+		max-width: 80%;
+	}
 }
 
 .ações {
