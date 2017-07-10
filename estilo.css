@@ -43,7 +43,6 @@ nav li {
 	width: 116px;
 	height: 30px;
 	background-color: #fff;
-	text-decoration: none;	
 	margin: 20px;
 }
 
@@ -180,7 +179,7 @@ video {
 	background: url("Assets/Carol Dall Farra03_Sarau do Alemao_ Foto Isabela Reis.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 120vh;
+	height: 90vh;
 }
 
 .bloco-contato {
@@ -191,11 +190,9 @@ video {
     border-radius: 25px;
     border: 1px solid #00416d;
     background-color: #fff;
-    text-decoration: none;
-    width: 30%;
-    height: 30%;
+    min-width: 25%;
+    min-height: 30%;
     padding: 1%;
-    font-size: 0.8em;
 }
 
 .bloco-contato p {
@@ -203,14 +200,23 @@ video {
 }
 
 .contato-resdesocial-doações {
-		
+	display: flex;
+	flex-direction: row;
 }
 
 .icone-rede-social {
-	width: 50px
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 50px;
 }
 
 .contato-doações-lista {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.contato-doações-lista-item {
+	list-style: none;
+
 }
