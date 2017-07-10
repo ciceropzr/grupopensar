@@ -107,6 +107,7 @@ p {
     height: 70%;
     padding: 1%;
 	color: #95989a;
+	margin: 5%
 }
 
 .ações {
@@ -193,6 +194,7 @@ video {
     min-width: 25%;
     min-height: 30%;
     padding: 1%;
+    margin: 5%;
 }
 
 .bloco-contato p {
