@@ -68,9 +68,6 @@ p {
 }
 
 .home {
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
 	flex-direction: row;
 }
 
@@ -94,15 +91,12 @@ p {
 	justify-content: flex-end;
 	align-content: flex-end;
 	align-items: center;
-	background: url("Assets/Público_Sarau do Alemao_Foto Marcus Menezes.jpg") 100%;
+	background: url("Assets/Público_Sarau do Alemao_Foto Marcus Menezes.jpg") ;
 	background-size: cover;
 	height: 120vh;
 }
 
-.sobre-descrição { 
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
+.sobre-descrição {
     flex-direction: column;
     border-radius: 25px;
     border: 1px solid #00416d;
@@ -121,9 +115,6 @@ p {
 }
 
 .ações {
-	/*display: flex;
-	align-items: center;
-	justify-content: center;*/
 	flex-direction: row;
 	flex-wrap: wrap;	
 	margin-top: 2.5%;
@@ -134,9 +125,6 @@ p {
 }
 
 .ações-sarau {
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
 	flex-direction: row;
 }
 
@@ -153,14 +141,14 @@ video {
 }
 
 .ações-pensarcine-favela {
-	/*display: flex;
+	display: flex;
 	justify-content: center;
-	align-items: center;*/
 	padding: 4%;
 	
 }
 
 .ações-pensarcine {
+
 	width: 35%;
 	height: 40%;
 	margin-left: 2%;
@@ -173,7 +161,7 @@ video {
 
 .ações-favela {
 	width: 35%;
-	height: 60%;
+	height: 40%;
 	margin-left: 2%;
 	padding: 1%;
 }
@@ -188,15 +176,12 @@ video {
 	align-items: flex-end;
 	position: relative;
 	background: url("Assets/Carol Dall - Sarau do Alemao.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	height: 90vh;
+	height: 100vh;
 }
 
 .bloco-contato {
-	/*display: flex;
-    align-items: center;
-    justify-content: center;*/
     flex-direction: column;
     border-radius: 25px;
     border: 1px solid #00416d;
@@ -217,9 +202,6 @@ video {
 }
 
 .icone-rede-social {
-/*	display: flex;
-	justify-content: center;
-	align-content: center;*/
 	width: 50px;
 }
 
@@ -237,6 +219,7 @@ video {
 @media screen and (max-width: 768px) {
 	.resposivo-tela-media {
 		flex-direction: column;
+		align-self: center;
 	}
 
 	.home-imagem-logo {
@@ -261,3 +244,34 @@ video {
 		width: 90%;
 		align-self: center;
 	}
+
+	.ações-pensarcine {
+		width: 100%;
+		align-self: center;
+		margin: 2%;
+	}
+
+	.ações-pensarcine p {
+		width: 80%;
+		align-self: center;
+		margin: 2%;
+	}
+
+	.ações-favela {
+		width: 100%;
+		align-self: center;
+		margin: 2%;
+	}
+
+	.ações-favela p {
+		width: 80%;
+		align-self: center;
+		margin: 2%;
+	}
+
+	.contato {
+		justify-content: center;
+		align-items: center;
+	}
+
+}
