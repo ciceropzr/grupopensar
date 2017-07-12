@@ -111,9 +111,9 @@ p {
 	margin: 5%
 }
 
-@media (max-width: 720px){
+@media (max-width: 1px){
 	.sobre-descricao {
-		max-width: 80%;
+		min-width: 80%;
 	}
 }
 
@@ -184,7 +184,7 @@ video {
 	justify-content: flex-end;
 	align-items: flex-end;
 	position: relative;
-	background: url("Assets/Carol Dall Farra03_Sarau do Alemao_ Foto Isabela Reis.jpg");
+	background: url("Assets/Carol Dall - Sarau do Alemao.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 90vh;
@@ -227,5 +227,4 @@ video {
 
 .contato-doações-lista-item {
 	list-style: none;
-
 }
