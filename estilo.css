@@ -93,7 +93,7 @@ p {
 	align-items: center;
 	background: url("Assets/Público_Sarau do Alemao_Foto Marcus Menezes.jpg") ;
 	background-size: cover;
-	height: 120vh;
+	min-height: 100vh;
 	padding: 5%
 }
 
@@ -294,7 +294,14 @@ video {
 	}
 
 	.contato-resdesocial {
-		flex-wrap: wrap;
+		display: flex;		
+		justify-content: center;
+		align-items: center;
 		flex-direction: row;
+	}
+
+	.icone-rede-social {
+		width: 60%;
+		justify-content: space-around;
 	}
 }
