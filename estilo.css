@@ -177,8 +177,7 @@ video {
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-	position: relative;
-	background: url("Assets/Carol Dall Farra - Sarau do Alemao.jpg");
+	background: url("Assets/Carol Dall Farra - Sarau do Alemao.jpg") center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
