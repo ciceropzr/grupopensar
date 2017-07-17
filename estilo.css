@@ -50,14 +50,6 @@ nav li {
 	margin: 20px;
 }
 
-@media screen and (max-width: 300px) {
-	nav li {
-		margin: 1px;
-	    width: 56px;
-	    height: 23px;
-	}
-}
-
 h2 { 
 	font-size: 1.61em; 
 	margin: 0;
@@ -228,7 +220,7 @@ video {
 	list-style: none;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 768px) {
 	nav li {
 		margin: 5px;
 		width: 70px;
@@ -328,5 +320,13 @@ video {
 	.icone-rede-social {
 		width: 50%;
 		margin-left: 25%;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	nav li {
+		margin: 5px;
+		width: 70px;
+		height: 25px;
 	}
 }
