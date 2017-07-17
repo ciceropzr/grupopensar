@@ -323,10 +323,10 @@ video {
 	}
 }
 
-@media screen and (max-width: 300px) {
+@media (max-width: 300px) {
 	nav li {
-		margin: 5px;
-		width: 70px;
-		height: 25px;
+		margin: 1px;
+		width: 56px;
+		height: 23px;
 	}
 }
