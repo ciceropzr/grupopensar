@@ -19,7 +19,8 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	top: 4%;
+	width: 100%
 }
 
 nav a {
@@ -31,6 +32,9 @@ nav ul {
 	justify-content: center;
 	align-items: center;
 	align-self: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 nav li {
@@ -180,7 +184,7 @@ video {
 	background: url("Assets/Carol Dall Farra - Sarau do Alemao.jpg") center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .bloco-contato {
@@ -264,10 +268,17 @@ video {
 		width: 100%;
 		align-self: center;
 		margin: 2%;
+		margin-top: 5%;
+	}
+
+	.ações-pensarcine h3 {
+		width: 96%;
+		align-self: center;
+		margin: 2%;
 	}
 
 	.ações-pensarcine p {
-		width: 80%;
+		width: 96%;
 		align-self: center;
 		margin: 2%;
 	}
@@ -278,8 +289,14 @@ video {
 		margin: 2%;
 	}
 
+	.ações-favela h3 {
+		width: 96%;
+		align-self: center;
+		margin: 2%;
+	}
+
 	.ações-favela p {
-		width: 80%;
+		width: 96%;
 		align-self: center;
 		margin: 2%;
 	}
