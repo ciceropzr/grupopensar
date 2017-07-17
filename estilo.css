@@ -19,7 +19,6 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	top: 4%;
 	width: 100%
 }
 
@@ -181,7 +180,7 @@ video {
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-	background: url("Assets/Sarau do Alemao.jpg");
+	background: url("Sarau do Alemao.jpg") center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 100vh;
