@@ -180,7 +180,7 @@ video {
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-	background: url("Sarau do Alemao.jpg") center center;
+	background: url("Assets/Sarau do Alemao.jpg") center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 100vh;
